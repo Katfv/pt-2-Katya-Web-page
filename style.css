@@ -1,8 +1,8 @@
-p{
+/* p{
   text-align: center;
-}
+} */
 body{
-  background-color: rgb(24, 224, 204);
+  background-color: aliceblue;
 }
 h2{
   font-family: cursive;
@@ -11,9 +11,25 @@ h2{
 .left{
   text-align: left;
 }
-.hehe{
-  font-family: fantasy
-}
+/* .hehe{
+  font-family: cursive;
+} */
 .blue{
   background: pink
+}
+.center{
+  text-align: center;
+  
+}
+.column{
+  float: left;
+  width: 50%;
+}
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.yellow{
+  color:brown;
 }
