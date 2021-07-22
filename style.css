@@ -30,6 +30,9 @@ h2{
   display: table;
   clear: both;
 }
-.yellow{
+.brown{
   color:brown;
+}
+.pink{
+  background-color: rgb(243, 164, 177);
 }
