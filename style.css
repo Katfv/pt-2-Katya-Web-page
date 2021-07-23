@@ -36,3 +36,28 @@ h2{
 .pink{
   background-color: rgb(243, 164, 177);
 }
+
+
+
+
+
+.navbar{
+  background-color: dimgray;
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  color: azure;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover{
+  background-color:palevioletred;
+  color: lemonchiffon;
+}
+.navbar a.active{
+  background-color:crimson;
+  color:gold;
+}
