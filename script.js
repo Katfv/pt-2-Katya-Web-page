@@ -6,6 +6,17 @@ function howMany(){
 
   var result = "Congratulations " + name + ", in " + number + " years you will meet " + celeb + " in " + place;
 
+ var image = new Image();
+  image.src = "snake.png";
+  image.width = "100";
+  image.height = "200";
+
+  document.getElementById("resultImage").appendChild(image)
+
   document.getElementById ("resultText").innerHTML = result;
+
+ 
+
+
 
 }
