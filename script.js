@@ -15,8 +15,18 @@ function howMany(){
 
   document.getElementById ("resultText").innerHTML = result;
 
- 
+}
 
 
 
+function display(){
+var text = "This is the text that I want to display when the button is clicked";
+
+document.getElementById("displayText").innerHTML = text;
+
+
+}
+
+function displayAlert(){
+  alert("This is the text I want to display....");
 }
