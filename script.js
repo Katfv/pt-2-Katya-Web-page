@@ -56,7 +56,7 @@ function ourAnimation(){
   setInterval(move, 5);
 
   function move(){
-    if(position ==window.screen.width){
+    if(position ==window.screen.width - 200){
       clearInterval();
     }
     else{
