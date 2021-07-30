@@ -80,3 +80,9 @@ button:hover{
   border: 1px solid fuchsia;
   transition-duration: .3s;
 }
+
+
+seperate{
+  float: left;
+  width: 33.33%
+}
